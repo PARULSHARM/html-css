@@ -1,0 +1,15 @@
+h1{
+  text-align:center;
+  color:black;
+  font-size: 5em;
+  padding-top:4em;
+}
+
+body{
+  background-image:url(nice.jpeg);
+  background-repeat: no-repeat;
+}
+
+html{
+  height: 100%;
+}
