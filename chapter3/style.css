@@ -1,0 +1,133 @@
+*{
+  box-sizing:padding-box;
+}
+  header{
+  height:250px;
+  background-image:url("BANNER.JPG");
+  background-size:cover;
+  color:white;
+  margin-top:1%;
+  margin-bottom:1%;
+  padding-top:1%;
+  padding-left:2%;
+  text-align:left;
+  width:auto;
+  position:relative;
+  z-index:-10;
+}
+.design-archives{
+
+  width:-20px;
+  margin-top:-180px;
+  margin-right:0px;
+  position:relative;
+  float:right;
+  padding-left:-20px;
+  padding-right:200px;
+  border: 3px solid white;
+  border-radius:100px;
+
+}
+
+header h1{
+  font-size:35px;
+  font-family:cursive;
+  position:reletive;
+  line-height:10px;
+}
+header h2{
+  font-size:15px;
+  font-family:cursive;
+  position:relative;
+}
+html{
+  height:100%;
+  width:auto;
+  font-family:arial;
+}
+a{
+  text-decoration:none;
+  color:#233c4c;
+  font-family:Fantasy;
+
+}
+h3{
+  display:none;
+}
+li {
+  display: inline-block;
+  padding: 5px 5px 10px 5px;
+  position: relative;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.one{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  background-color:#e6e6ff;
+}
+.design-text-container{
+  float:right;
+  width:20%;
+  height:71%;
+  background-color:rgba(230, 204, 255, 0.7);
+  margin-top:-250px;
+
+  padding-top:25%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:5%;
+}
+.yo{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  border:1%;
+  background-color:#d9f2e6;
+}
+.zen-resources{
+  float:right;
+  width:20%;
+  height:75%;
+  background-color:#d5ff80;
+  padding:5%;
+  display:flex;
+}
+.requirements{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  border:1%;
+  background-color:#ffe6e6;
+}
+.right{
+  float:right;
+  width:20%;
+  height:75%;
+  background-color:#ffe0cc;
+  padding:5%;
+  display:flex;
+
+}
+footer{
+  height:250px;
+  background-color:#ff9999;
+  background-size:cover;
+  color:white;
+  width:1425px;
+  position:static;
+  bottom:-1px;
+  clear:both;
+  text-align:center;
+  font-size:35px;
+  font-family:cursive;
+  padding-top:50px;
+  padding-bottom:100px;
+}
+
+
