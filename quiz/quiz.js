@@ -16,7 +16,7 @@ var questions=[
 ]
 
 
-
+// on clicking next this function will be called
 function next(){
   if(!checkvalue)
   {
