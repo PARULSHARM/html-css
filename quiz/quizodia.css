@@ -1,0 +1,131 @@
+body{
+  background-color:#009966;
+}
+.header img {
+  margin-top:100px;
+  padding-left:650px;
+}
+.header h1 {
+  margin-top:27px;
+  padding-left:380px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:70px;
+  color:white;
+}
+
+#but{
+  margin-top:80px;
+  margin-left:610px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+  color:white;
+  text-decoration: none;
+  border-radius:25%;
+  padding: 20px 32px;
+  -webkit-appearance:none;
+  background-color:#AA2200;
+}
+#but1{
+  margin-top:80px;
+  margin-left:585px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+  color:white;
+  text-decoration: none;
+  border-radius:25%;
+  padding: 20px 32px;
+  -webkit-appearance:none;
+  background-color:#AA2200;
+}
+.grid{
+  font-size:40px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color:white;
+  background-color:#009966;
+  width:800px;
+  height:700px;
+  margin:0 auto;
+  padding : 10px 50px 50px 50px;
+  border-radius:50px;
+  border:2px solid black;
+  box-shadow: 10px 15px 5px black;
+}
+.grid #question {
+  font-size:34px;
+  color:white;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#btn0, #btn1, #btn2, #btn3{
+  background-color:white;
+  width:250px;
+  height:50px;
+  font-size:25px;
+  color:black;
+  border:1px solid black;
+  border-radius:50px;
+  margin:10px 40px 10px 0px;
+  padding:10px 10px;
+}
+#progress{
+  color:white;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+  cursor:pointer;
+  background-color:#20B2AA;
+}
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+  cursor:pointer;
+  background-color:#6B8E23;
+}
+
+
+#quizodia h1{
+  height:110px;
+  padding:0px 10px 15px 10px;
+  background:white;
+  width:170px;
+  text-align:center;
+  margin-left:210px;
+  border-radius:50px;
+  box-shadow: 10px 15px 5px black;
+  color:#009966;
+
+}
+#next{
+  margin-left:610px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:15px;
+  color:white;
+  text-decoration: none;
+  border-radius:15%;
+  padding: 15px 15px;
+  -webkit-appearance:none;
+  background-color:#AA2200;
+  padding-bottom:10px;
+  margin-top:-61px;
+  box-shadow: 5px 7px 7px black;
+}
+
+#ans-wrapper{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color:white;
+}
+@media screen and (min-width:360px) and (max-width:768px){
+  #babe{
+    margin-top:450px;
+  }
+  .babes{
+    margin-left:-248px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+  #babe{
+    margin-top:317px;
+  }
+  .babes{
+    margin-left:-248px;
+  }
+}
+

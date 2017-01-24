@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Quizodia</title>
+  <link rel="shortcut icon" href="quizodia.png" />
+  <link rel="stylesheet" href=quizodia.css>
+</head>
+<body id="babe">
+  <div id="ans-wrapper">
+  <div class="grid">
+    <div id="quizodia">
+      <h1>quiz</h1>
+      <hr style="margin-top:20px">
+        <p id="question"></p>
+        <div class="buttons">
+          <button id="btn0" onclick="cal(this.value)" value=""><span id="choice0"></span></button>
+          <button id="btn1" onclick="cal(this.value)" value=""> <span id="choice1"></span></button>
+          <button id="btn2" onclick="cal(this.value)" value=""><span id="choice2"></span></button>
+          <button id="btn3" onclick="cal(this.value)" value=""><span id="choice3"></span></button>
+        </div>
+      <hr style="margin-top:50px">
+        <footer>
+          <p id="progress"></p>
+          <a onclick="next();" id="next">Next Question</a>
+        </footer>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+  <script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
