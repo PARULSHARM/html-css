@@ -1,603 +1,577 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400i,700&subset=latin-ext');
 @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/icomoon.eot');
-    src: url('fonts/icomoon.woff2') format('woff2'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg#icomoon') format('svg'), url('fonts/icomoon.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.woff2') format('woff2'),
+       url('fonts/icomoon.woff') format('woff'),
+       url('fonts/icomoon.ttf') format('truetype'),
+       url('fonts/icomoon.svg#icomoon') format('svg'),
+       url('fonts/icomoon.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
-ol,
-ul {
-    list-style: none;
+ol, ul {
+  list-style: none;
 }
-blockquote,
-q {
-    quotes: none;
+blockquote, q {
+  quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 a {
-    color: #000;
+  color: #000;
 }
-header {
-    height: 250px;
-    background-image: url(http://www.csszengarden.com/214/huntington.jpg), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png);
-    color: white;
-    position: relative;
-    display: flex;
-    padding-top: 80px;
-    margin: 0px;
-    opacity: 0.8;
-    font-family: 'Julius Sans One', sans-serif;
+
+header{
+  height:250px;
+  background-image:url(http://www.csszengarden.com/214/huntington.jpg),url(http://www.csszengarden.com/214/noise.png),url(http://www.csszengarden.com/214/gridlines.png);
+  color:white;
+  position:relative;
+  display:flex;
+  padding-top:80px;
+  margin:0px;
+  opacity:0.8;
+  font-family: 'Julius Sans One', sans-serif;
 }
-.aside a {
-    margin-top: -205px;
-    margin-left: 1100px;
-    position: absolute;
-    color: black;
-    border-radius: 5px;
-    border-color: 7CA18F;
-    border-style: solid;
-    padding: 25px 25px 25px 25px;
-    border-width: 1px;
-    background-color: #7CA18F;
+.aside a{
+  margin-top:-205px;
+  margin-left:1100px;
+  position:absolute;
+  color:black;
+  border-radius:5px;
+  border-color:7CA18F;
+  border-style: solid;
+  padding:25px 25px 25px 25px;
+  border-width: 1px;
+  background-color:#7CA18F;
 }
-#arrow {
-    margin-left: 1270px;
-    margin-top: -206px;
-    background-color: #7CA18F;
-    height: 70px;
-    opacity: 0.8;
+#arrow{
+  margin-left:1270px;
+  margin-top:-206px;
+  background-color:#7CA18F;
+  height:70px;
+  opacity:0.8;
 }
-#heading {
-    padding-top: 45px;
-    padding-left: 230px;
-    font-family: 'Libre Baskerville', serif;
+#heading{
+  padding-top:45px;
+  padding-left:230px;
+  font-family: 'Libre Baskerville', serif;
 }
-#heading2 {
-    margin-left: -401px;
-    font-family: 'Libre Baskerville', serif;
-    padding-top: 50px;
+#heading2{
+  margin-left:-300px;
+  font-family: 'Libre Baskerville', serif;
+  padding-top:50px;
 }
-#img {
-    height: 120px;
-    width: 120px;
-    padding-left: 70px;
-    margin-left: 10px;
-    position: absolute;
+#img{
+  height:120px;
+  width:120px;
+  padding-left:70px;
+  margin-left:10px;
+  position:absolute;
 }
-header h1 {
-    font-size: 45px;
-    font-family: 'Dosis', sans-serif;
-    position: relative;
-    line-height: 10px;
+
+header h1{
+  font-size:45px;
+  font-family:'Dosis', sans-serif;
+  position:relative;
+  line-height:10px;
 }
-header h2 {
-    font-size: 15px;
-    font-family: cursive;
-    position: relative;
+header h2{
+  font-size:15px;
+  font-family:cursive;
+  position:relative;
 }
-html {
-    height: 100%;
-    width: auto;
-    font-family: arial;
+html{
+  height:100%;
+  width:auto;
+  font-family:arial;
 }
-.select {
-    display: none;
+
+
+.select{
+  display:none;
 }
-h3 {
-    font-size: 35px;
-    line-height: 100px;
-    font-family: 'Julius Sans One', sans-serif;
+h3{
+  font-size:35px;
+  line-height:100px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 li {
-    display: inline-block;
-    padding: 5px 5px 10px 5px;
-    position: relative;
-    font-weight: bold;
-    border-bottom: 1px solid black;
+  display: inline-block;
+  padding: 5px 5px 10px 5px;
+  position: relative;
+  font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
-/*first left bar*/
-.one {
-    float: left;
-    width: 60%;
-    height: 75%;
-    padding: 5%;
-    background-color: white;
-    font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
+.one{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  background-color:white;
+  font-size:18px;
+  font-family: 'Libre Baskerville', serif;
 }
-/*first right bar*/
-.design-text-container {
-    float: right;
-    width: 20%;
-    height: 77%;
-    background-color: #e2e2e2;
-    margin-top: -330px;
-    opacity: 0.3;
-    padding-top: 27%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 18px;
+.design-text-container{
+  float:right;
+  width:20%;
+  height:77%;
+  background-color:#e2e2e2;
+  margin-top:-330px;
+  opacity:0.3;
+  padding-top:27%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:5%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:18px;
+
 }
-.design-text-container ul li:last-of-type {
-    border
+.design-text-container ul li:last-of-type{
+  border
 }
-/*second left bar*/
-.yo {
-    float: left;
-    width: 60%;
-    height: 75%;
-    padding: 5%;
-    border: 1%;
-    background-image: url(http://www.csszengarden.com/214/bamboo.png);
-    background-color: #85C9A8;
-    background-attachment: absolute;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
+.yo{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  border:1%;
+  background-image:url(http://www.csszengarden.com/214/bamboo.png);
+  background-color:#85C9A8;
+  background-attachment:absolute;
+  font-family: 'Libre Baskerville', serif;
+  font-size:18px;
 }
-/*second right bar*/
-.zen-resources {
-    float: right;
-    width: 20%;
-    height: 75%;
-    opacity: 0.3;
-    background-color: #85C9A8;
-    background-image: url(http://www.csszengarden.com/214/bamboo.png);
-    padding: 5%;
-    display: flex;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 18px;
+.zen-resources{
+  float:right;
+  width:20%;
+  height:75%;
+  opacity:0.3;
+  background-color:#85C9A8;
+  background-image:url(http://www.csszengarden.com/214/bamboo.png);
+  padding:5%;
+  display:flex;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:18px;
 }
-.zen-resources ul li:first-of-type {
-    border-top: 1px solid black;
+.zen-resources ul li:first-of-type{
+  border-top:1px solid black;
 }
+
 .zen-resources ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .navigation ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .design-name {
-    color: grey;
+  color: grey;
 }
 .designer-name {
-    color: #000;
+  color:#000;
 }
-/*third left*/
-.requirements {
-    float: left;
-    width: 60%;
-    height: 75%;
-    padding: 5%;
-    border: 1%;
-    background-color: white;
-    font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
-}
-/*third right*/
-.right {
-    float: right;
-    width: 20%;
-    height: 75%;
-    background-color: #e2e2e2;
-    opacity: 0.3;
-    padding: 5%;
-    display: flex;
-    font-size: 18px;
-    font-family: 'Julius Sans One', sans-serif;
-}
-footer {
-    color: #908888;
-    width: 100%;
-    clear: both;
-    padding-top: 25px;
-    line-height: 70px;
-    font-family: 'Libre Baskerville', serif italic;
-    text-align: center;
-    font-style: italic;
-    font-size: 35px;
-    position: relative;
-    background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
-}
-footer a {
-    text-decoration: none;
-    font-style: normal;
-    font-size: 40px;
-    color: #FFF;
-}
-/*Footer CSS*/
 
+.requirements{
+  float:left;
+  width:60%;
+  height:75%;
+  padding:5%;
+  border:1%;
+  background-color:white;
+  font-size:18px;
+  font-family: 'Libre Baskerville', serif;
+}
+.right{
+  float:right;
+  width:20%;
+  height:75%;
+  background-color:#e2e2e2;
+  opacity:0.3;
+  padding:5%;
+  display:flex;
+  font-size:18px;
+ font-family: 'Julius Sans One', sans-serif;
+}
+footer{
+
+  color:#908888;
+  width:100%;
+  clear:both;
+  padding-top:25px;
+  line-height:70px;
+  font-family: 'Libre Baskerville', serif italic ;
+  text-align:center;
+  font-style: italic;
+  font-size:35px;
+  position:relative;
+  background-image:url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png),url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
+
+}
+
+footer a {
+  text-decoration:none;
+  font-style: normal;
+  font-size:40px;
+  color: #FFF;
+}
+
+/*Footer CSS*/
 .footer-icons {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
+
 .footerr {
-    background: #00443e;
-    height: 100px;
-    clear: both;
-    overflow: hidden;
+  background: #00443e;
+  height: 100px;
+  clear: both;
+  overflow: hidden;
 }
+
 .footerr ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .footerr ul li {
-    margin-right: 50px;
-    margin-top: 20px;
-    font-family: 'icomoon';
-    color: #fff;
-    padding: 10px;
-    font-size: 24px;
-    list-style: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-family: 'icomoon';
+  color: #fff;
+  padding: 10px;
+  font-size:24px;
+  list-style: none;
+  border: 1px solid #fff;
+  border-radius:100%;
 }
-@media screen and (max-width: 320px) {
-    * {
-        box-sizing: padding-box;
-    }
-    #img {
-        padding-left: 2px;
-        margin-left: 2px;
-        height: 110px;
-        width: 110px;
-    }
-    #heading {
-        padding-top: 0px;
-        line-height: 40px;
-        font-size: 24px;
-        padding: 0px;
-    }
-    header h1 {
-        margin-left: 152px;
-    }
-    header h2 {
-        margin-left: -100px;
-    }
-    #heading2 {
-        margin-top: 5px;
-        padding-left: 0px;
-        margin-left: -160px;
-    }
-    .zen-resources ul li:first-of-type {
-        border-top: none;
-    }
-    .one {
-        width: 100%;
-        height: 1200px;
-        font-size: 14px;
-        padding: 0px;
-    }
-    .summary {
-        margin-top: 10px;
-    }
-    .one h3 {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    .one p {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    .design-text-container {
-        width: 100%;
-        margin-top: -420px;
-        height: 400px;
-        padding-left: 5%;
-        padding-right: 0%;
-    }
-    .aside a {
-        margin-left: 40px;
-        position: absolute;
-        margin-top: -100px;
-    }
-    #arrow {
-        margin-left: 230px;
-        margin-top: -100px;
-    }
-    .yo {
-        width: 100%;
-        height: 1200px;
-        font-size: 14px;
-        margin-top: 0px;
-        padding: 0;
-    }
-    .yo h3 {
-        padding-left: 5%
-    }
-    .yo p {
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 30px;
-    }
-    .zen-resources {
-        width: 100%;
-        height: 100px;
-        padding-left: 15%;
-        padding-right: 0%
-    }
-    .requirements {
-        width: 100%;
-        height: 1400px;
-        font-size: 14px;
-        padding: 0%;
-    }
-    .requirements h3 {
-        padding-left: 5%;
-    }
-    .requirements p {
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 30px;
-    }
-    .right {
-        display: none;
-    }
-    h3 {
-        font-size: 25px;
-        line-height: 50px;
-        font-family: 'Julius Sans One', sans-serif;
-    }
-    .footerr ul {
-        padding-left: 6px;
-    }
-    .footerr ul li {
-        margin-right: 10px;
-        margin-left: 2px;
-        margin-top: 20px;
-        font-family: 'icomoon';
-        color: #fff;
-        padding: 10px;
-        font-size: 18px;
-        list-style: none;
-        border: 1px solid #fff;
-        border-radius: 100%;
-    }
+
+
+@media screen and (max-width:320px){
+  *{
+    box-sizing:padding-box;
+  }
+  #img{
+    padding-left:2px;
+    margin-left:2px;
+    height:110px;
+    width:110px;
+
+  }
+  #heading{
+    padding-top:0px;
+    line-height:40px;
+    font-size:24px;
+    padding: 0px;
+  }
+
+  header h1 {
+    margin-left: 152px;
+  }
+
+  header h2 {
+    margin-left: -100px;
+  }
+  #heading2{
+    margin-top:5px;
+    padding-left:0px;
+    margin-left: -160px;
+
+  }
+  .zen-resources ul li:first-of-type{
+    border-top:none;
+  }
+  .one{
+    width:100%;
+    height:1200px;
+    font-size:14px;
+    padding: 0px;
+  }
+.summary {
+  margin-top: 10px;
 }
-@media screen and (min-width: 321px) and (max-width: 1024px) {
-    * {
-        box-sizing: padding-box;
-    }
-    #img {
-        padding-left: 2px;
-        margin-left: 2px;
-        height: 110px;
-        width: 110px;
-    }
-    #heading {
-        padding-top: 0px;
-        line-height: 40px;
-        font-size: 24px;
-        padding: 0px;
-    }
-    header h1 {
-        margin-left: 152px;
-    }
-    header h2 {
-        margin-left: -100px;
-    }
-    #heading2 {
-        margin-top: 5px;
-        padding-left: 0px;
-        margin-left: -160px;
-    }
-    .zen-resources ul li:first-of-type {
-        border-top: none;
-    }
-    .one {
-        width: 100%;
-        height: 1200px;
-        font-size: 14px;
-        padding: 0px;
-    }
-    .summary {
-        margin-top: 10px;
-    }
-    .one h3 {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    .one p {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    .design-text-container {
-        width: 100%;
-        margin-top: -420px;
-        height: 400px;
-        padding-left: 5%;
-        padding-right: 0%;
-    }
-    .aside a {
-        margin-left: 40px;
-        position: absolute;
-        margin-top: -100px;
-    }
-    #arrow {
-        margin-left: 230px;
-        margin-top: -100px;
-    }
-    .yo {
-        width: 100%;
-        height: 1200px;
-        font-size: 14px;
-        margin-top: 0px;
-        padding: 0;
-    }
-    .yo h3 {
-        padding-left: 5%
-    }
-    .yo p {
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 30px;
-    }
-    .zen-resources {
-        width: 100%;
-        height: 100px;
-        padding-left: 15%;
-        padding-right: 0%
-    }
-    .requirements {
-        width: 100%;
-        height: 1400px;
-        font-size: 14px;
-        padding: 0%;
-    }
-    .requirements h3 {
-        padding-left: 5%;
-    }
-    .requirements p {
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 30px;
-    }
-    .right {
-        display: none;
-    }
-    h3 {
-        font-size: 25px;
-        line-height: 50px;
-        font-family: 'Julius Sans One', sans-serif;
-    }
-    .footerr ul {
-        padding-left: 6px;
-    }
-    .footerr ul li {
-        margin-right: 10px;
-        margin-left: 2px;
-        margin-top: 20px;
-        font-family: 'icomoon';
-        color: #fff;
-        padding: 10px;
-        font-size: 18px;
-        list-style: none;
-        border: 1px solid #fff;
-        border-radius: 100%;
-    }
+.one h3 {
+
+    padding-right: 5%;
+    padding-left:5%;
+}
+  .one p {
+    padding-right: 5%;
+    padding-left:5%;
+  }
+
+  .design-text-container{
+    width:100%;
+    margin-top:-420px;
+    height:400px;
+    padding-left:5%;
+    padding-right:0%;
+  }
+
+  .aside a{
+    margin-left:40px;
+    position:absolute;
+    margin-top:-100px;
+  }
+  #arrow{
+    margin-left:230px;
+    margin-top:-100px;
+
+  }
+
+
+  .yo{
+    width:100%;
+    height:1200px;
+    font-size:14px;
+    margin-top:0px;
+    padding: 0;
+
+  }
+.yo h3 {
+  padding-left: 5%
+}
+  .yo p {
+    padding-left:5%;
+    padding-right: 5%;
+    line-height: 30px;
+  }
+
+
+  .zen-resources{
+    width:100%;
+    height:100px;
+    padding-left:15%;
+    padding-right:0%
+
+  }
+  .requirements{
+    width:100%;
+    height: 1400px;
+    font-size:14px;
+    padding:0%;
+  }
+  .requirements h3 {
+    padding-left: 5%;
+  }
+
+  .requirements p {
+    padding-left:5%;
+    padding-right: 5%;
+    line-height: 30px;
+  }
+  .right{
+    display:none;
+  }
+
+  h3{
+  font-size:25px;
+  line-height:50px;
+  font-family: 'Julius Sans One', sans-serif;
+  }
+
+  .footerr ul {
+    padding-left:6px;
+  }
+  .footerr ul li {
+  margin-right: 10px;
+  margin-left: 2px;
+  margin-top: 20px;
+  font-family: 'icomoon';
+  color: #fff;
+  padding: 10px;
+  font-size:18px;
+  list-style: none;
+  border: 1px solid #fff;
+  border-radius:100%;
+}
+
+}
+
+
+
+@media screen and (min-width:321px) and (max-width: 1024px){
+  *{
+    box-sizing:padding-box;
+  }
+  #img{
+    padding-left:2px;
+    margin-left:2px;
+    height:110px;
+    width:110px;
+
+  }
+  #heading{
+    padding-top:0px;
+    line-height:40px;
+    font-size:24px;
+    padding: 0px;
+  }
+
+  header h1 {
+    margin-left: 152px;
+  }
+
+  header h2 {
+    margin-left: -100px;
+  }
+  #heading2{
+    margin-top:5px;
+    padding-left:0px;
+    margin-left: -160px;
+
+  }
+  .zen-resources ul li:first-of-type{
+    border-top:none;
+  }
+  .one{
+    width:100%;
+    height:1200px;
+    font-size:14px;
+    padding: 0px;
+  }
+.summary {
+  margin-top: 10px;
+}
+.one h3 {
+
+    padding-right: 5%;
+    padding-left:5%;
+}
+  .one p {
+    padding-right: 5%;
+    padding-left:5%;
+  }
+
+  .design-text-container{
+    width:100%;
+    margin-top:-420px;
+    height:400px;
+    padding-left:5%;
+    padding-right:0%;
+  }
+
+  .aside a{
+    margin-left:40px;
+    position:absolute;
+    margin-top:-100px;
+  }
+  #arrow{
+    margin-left:230px;
+    margin-top:-100px;
+
+  }
+
+
+  .yo{
+    width:100%;
+    height:1200px;
+    font-size:14px;
+    margin-top:0px;
+    padding: 0;
+
+  }
+.yo h3 {
+  padding-left: 5%
+}
+  .yo p {
+    padding-left:5%;
+    padding-right: 5%;
+    line-height: 30px;
+  }
+
+
+  .zen-resources{
+    width:100%;
+    height:100px;
+    padding-left:15%;
+    padding-right:0%
+
+  }
+  .requirements{
+    width:100%;
+    height: 1400px;
+    font-size:14px;
+    padding:0%;
+  }
+  .requirements h3 {
+    padding-left: 5%;
+  }
+
+  .requirements p {
+    padding-left:5%;
+    padding-right: 5%;
+    line-height: 30px;
+  }
+  .right{
+    display:none;
+  }
+
+  h3{
+  font-size:25px;
+  line-height:50px;
+  font-family: 'Julius Sans One', sans-serif;
+  }
+
+  .footerr ul {
+    padding-left:6px;
+  }
+  .footerr ul li {
+  margin-right: 10px;
+  margin-left: 2px;
+  margin-top: 20px;
+  font-family: 'icomoon';
+  color: #fff;
+  padding: 10px;
+  font-size:18px;
+  list-style: none;
+  border: 1px solid #fff;
+  border-radius:100%;
+}
 }
