@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  display: block;
+  margin: 0;
+}
+
+.image1, .image2, .image3 {
+  position: relative;
+  opacity: 0.69;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demo p, .scroll p {
+  font: 400 15px/1.8 "Lato", sans-serif;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.image1 {
+  min-height: 100vh;
+  background-image: url("http://www.w3schools.com/howto/img_parallax.jpg");
+}
+
+.image2 {
+  min-height: 400px;
+  background-image: url("http://www.w3schools.com/howto/img_parallax2.jpg");
+}
+
+.image3 {
+  min-height: 400px;
+  background-image: url("http://www.w3schools.com/howto/img_parallax3.jpg");
+}
+
+.image1 .option, .image2 .option, .image3 .option {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.image2 .option .button, .image3 .option .button {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+  padding: 18px;
+  letter-spacing: 10px;
+}
+
+.image1 .option .button {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.demo {
+  color: #777;
+  background-color: white;
+  padding: 50px 80px;
+  text-align: justify;
+}
+.demo h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  font: 20px "Lato", sans-serif;
+}
+
+.scroll {
+  color: #ddd;
+  background-color: #282E34;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .image1 .option .button, .image2 .option .button, .image3 .option .button {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .demo p, .scroll p {
+    font: 400 25px/1.8 "Lato", sans-serif;
+  }
+}
+
+@media (min-width: 600px) {
+  .image1 .option .button, .image2 .option .button, .image3 .option .button {
+    font-size: 44px;
+  }
+}
